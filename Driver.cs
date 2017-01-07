@@ -4,7 +4,7 @@ using System.Text;
 
 namespace AlphaCrypt
 {
-    class Program
+    class Driver
     {
         static void Main(string[] args)
         {
@@ -13,14 +13,6 @@ namespace AlphaCrypt
             message = newSet.encryptString(message);
             Console.WriteLine(message);
             Console.ReadLine();
-
-            /*List<int> intList = new List<int>();
-            for (int i = 32; i < 127; i++)
-            {
-                intList.Add(i);
-            }
-            Console.WriteLine(intList.Count);
-            Console.ReadLine();*/
         }
     }
 }
